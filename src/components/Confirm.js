@@ -4,7 +4,7 @@ import AppBar from 'material-ui/AppBar';
 import { List, ListItem } from 'material-ui/List';
 import RaisedButton from 'material-ui/RaisedButton';
 
-class FormUserDetails extends Component {
+class Confirm extends Component {
   continue = (e) => {
     e.preventDefault();
     // PROCESS FORM //
@@ -46,7 +46,7 @@ class FormUserDetails extends Component {
             onClick={this.back}
           />
           <RaisedButton
-            label="Continue"
+            label="Confir & Continue"
             primary={true}
             style={styles.button}
             onClick={this.continue}
@@ -63,4 +63,4 @@ const styles = {
   },
 };
 
-export default FormUserDetails;
+export default Confirm;
